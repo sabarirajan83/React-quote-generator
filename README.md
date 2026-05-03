@@ -1,6 +1,6 @@
 # 🌟 React Quote Generator
 
-A modern, full-stack React application that fetches inspiring quotes and pairs them with beautifully transitioning background images. 
+A modern React application that fetches inspiring quotes and pairs them with beautifully transitioning background images. 
 
 ---
 
@@ -14,7 +14,6 @@ To ensure reliable data fetching without browser security blocks, this project u
 
 * **🪞 Glassmorphism UI:** A sleek, modern interface utilizing advanced CSS `backdrop-filter` techniques.
 * **🖼️ Dynamic Image Cycling:** Seamlessly transitions through a curated gallery of background images based on user interaction states.
-* **💬 WhatsApp Click-to-Chat:** Instantly share your favorite quotes. The app automatically URI-encodes the text and author for flawless social sharing.
 * **🚀 Smart Asynchronous Loading:** Implements loading states to prevent "ghost clicks" and UI freezing during API calls.
 * **🛡️ CORS-Bypassing Proxy:** Uses a lightweight Node.js/Express backend to securely route API requests.
 
