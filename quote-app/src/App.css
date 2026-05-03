@@ -1,0 +1,164 @@
+.hero-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.hero-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#quote {
+  padding: 40px 50px;
+  width: 100%;
+  max-width: 600px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(161, 223, 252, 0.15);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(161, 223, 252, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.quote-author {
+  font-size: 1rem;
+  font-style: italic;
+  opacity: 0.9;
+  margin: 0;
+  text-align: right;
+}
+
+.quote-placeholder {
+  margin: 0;
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.button {
+  padding: 14px 32px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0284c7;
+  box-shadow: 0 6px 16px rgba(14, 165, 233, 0.4);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: scale(0.97) translateY(0);
+  box-shadow: 0 2px 4px rgba(14, 165, 233, 0.2);
+}
+
+.button:focus-visible {
+  outline: 3px solid #7dd3fc;
+  outline-offset: 4px;
+}
+
+.hero-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.bg-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+}
+
+.bg-layer.active {
+  opacity: 0.5;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  padding: 20px;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
