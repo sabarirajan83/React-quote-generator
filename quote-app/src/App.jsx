@@ -57,7 +57,7 @@ function App() {
             </>
           ) : (
             <p className="quote-placeholder">
-              Click the button below to get inspired.
+              Click the button below to get inspired
             </p>
           )}
         </div>
