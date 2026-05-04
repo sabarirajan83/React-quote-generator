@@ -20,15 +20,23 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:3030/quotes");
+      const response = await fetch("https://dummyjson.com/quotes/random");
+
+      if (!response.ok) {
+        throw new Error("Failed to reach the quote service");
+      }
+
       const data = await response.json();
+
       setQuote(data.quote);
       setAuthor(data.author);
       setClickCount((prevCount) => prevCount + 1);
     } catch (error) {
       console.error("Error fetching quote:", error);
-      setQuote("Oops! Couldn't fetch a quote. Is your server running?");
-      setAuthor("");
+      setQuote(
+        "Oops! I couldn't grab a quote. Please check your internet connection.",
+      );
+      setAuthor("System");
     } finally {
       setIsLoading(false);
     }
