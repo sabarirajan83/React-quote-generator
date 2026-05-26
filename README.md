@@ -1,6 +1,6 @@
 # 🌟 React Quote Generator
 
-A modern React application that fetches inspiring quotes and pairs them with beautifully transitioning background images. 
+A modern React application that fetches inspiring quotes and pairs them with beautifully transitioning background images.
 
 ---
 
@@ -10,21 +10,25 @@ A modern React application that fetches inspiring quotes and pairs them with bea
 
 To ensure reliable data fetching without browser security blocks, this project utilizes a custom Express proxy server alongside the React frontend.
 
+## 🌐 Live Demo
+
+👉 [View Live Demo](https://sabarirajan83.github.io/React-quote-generator/)
+
 ## ✨ Key Features
 
-* **🪞 Glassmorphism UI:** A sleek, modern interface utilizing advanced CSS `backdrop-filter` techniques.
-* **🖼️ Dynamic Image Cycling:** Seamlessly transitions through a curated gallery of background images based on user interaction states.
-* **🚀 Smart Asynchronous Loading:** Implements loading states to prevent "ghost clicks" and UI freezing during API calls.
-* **🛡️ CORS-Bypassing Proxy:** Uses a lightweight Node.js/Express backend to securely route API requests.
+- **🪞 Glassmorphism UI:** A sleek, modern interface utilizing advanced CSS `backdrop-filter` techniques.
+- **🖼️ Dynamic Image Cycling:** Seamlessly transitions through a curated gallery of background images based on user interaction states.
+- **🚀 Smart Asynchronous Loading:** Implements loading states to prevent "ghost clicks" and UI freezing during API calls.
+- **🛡️ CORS-Bypassing Proxy:** Uses a lightweight Node.js/Express backend to securely route API requests.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React 18, Vite (for rapid HMR and optimized builds)
-* **Styling:** Vanilla CSS3 (Flexbox, CSS Variables, Transitions)
-* **Backend:** Node.js, Express.js, CORS middleware
-* **API:** [DummyJSON Quotes API](https://dummyjson.com/docs/quotes)
+- **Frontend:** React 18, Vite (for rapid HMR and optimized builds)
+- **Styling:** Vanilla CSS3 (Flexbox, CSS Variables, Transitions)
+- **Backend:** Node.js, Express.js, CORS middleware
+- **API:** [DummyJSON Quotes API](https://dummyjson.com/docs/quotes)
 
 ---
 
@@ -43,7 +47,9 @@ Building this project provided valuable hands-on experience with several core we
 Want to run this project locally? Follow these steps:
 
 ### 📋 Prerequisites
+
 Make sure you have the following installed:
+
 - Node.js (v14 or higher recommended)
 - npm or yarn
 
@@ -52,16 +58,20 @@ Make sure you have the following installed:
 ### ⚙️ Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/your-username/React-quote-generator.git
 cd React-quote-generator
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
+
 or
+
 ```bash
 yarn install
 ```
@@ -71,15 +81,19 @@ yarn install
 ### ▶️ Running the App
 
 3. Start the development server:
+
 ```bash
 npm start
 ```
+
 or
+
 ```bash
 yarn start
 ```
 
 4. Open in browser:
+
 ```
 http://localhost:3000
 ```
@@ -131,22 +145,28 @@ const API_URL = "https://dummyjson.com/quotes";
 
 ## 🤝 Contributing
 
-Contributions are welcome!  
+Contributions are welcome!
 
-1. Fork the repository  
-2. Create your feature branch  
+1. Fork the repository
+2. Create your feature branch
+
 ```bash
 git checkout -b feature/AmazingFeature
 ```
-3. Commit your changes  
+
+3. Commit your changes
+
 ```bash
 git commit -m "Add some AmazingFeature"
 ```
-4. Push to the branch  
+
+4. Push to the branch
+
 ```bash
 git push origin feature/AmazingFeature
 ```
-5. Open a Pull Request  
+
+5. Open a Pull Request
 
 ---
 
@@ -165,9 +185,9 @@ Feel free to use and modify it for your own projects.
 
 ## 🙌 Acknowledgements
 
-- DummyJSON for providing a free quotes API  
-- Inspiration from modern UI/UX design trends  
-- React & Vite communities  
+- DummyJSON for providing a free quotes API
+- Inspiration from modern UI/UX design trends
+- React & Vite communities
 
 ---
 
@@ -175,9 +195,9 @@ Feel free to use and modify it for your own projects.
 
 If you like this project:
 
-- ⭐ Star the repo  
-- 🍴 Fork it  
-- 🧑‍💻 Share it with others  
+- ⭐ Star the repo
+- 🍴 Fork it
+- 🧑‍💻 Share it with others
 
 ---
 
